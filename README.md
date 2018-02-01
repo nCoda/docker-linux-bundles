@@ -11,10 +11,13 @@ This Dockerfile adds the following packages to the official Fedora image:
 - python2
 - python2-devel
 - python2-virtualenv
-- yarn
+- yarn (from yarnpkg.com)
 
-This image is available as an [automated build](https://hub.docker.com/r/crantila/fedora-flatpak)
+This image is available as an
+[automated build](https://hub.docker.com/r/ncodamusic/docker-linux-bundles/)
 from the Docker Hub registry.
+
+Note: The Docker "tag" corresponds to the Fedora release in the image.
 
 
 Authors
